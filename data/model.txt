@@ -1,0 +1,131 @@
+Модели Audi:
+A1 
+A3 
+A4 
+A5 
+A6 
+A7 
+A8 
+Q2 
+Q3 
+Q5 
+Q7 
+e-tron 
+RS3 
+RS4 
+RS5 
+RS6 
+TT 
+R8 
+SQ2 
+SQ5
+Модели BMW:
+    1 серия 
+    2 серия Gran Coupe 
+    3 серия 
+    4 серия 
+    5 серия 
+    6 серия GT 
+    7 серия 
+    i3 
+    X1 
+    Х2 
+    Х3 
+    Х4 
+    Х5 
+    Х6 
+    Z4 
+    M2 
+    М3 
+    М4 
+    М5 
+    М8 
+    I8
+Модели Mercedes-Benz:
+    A-Класс
+    B-Класс 
+    C-Класс 
+    CLA 
+    E-Класс 
+    GLA 
+    GLB 
+    S-Класс 
+    SL-Класс 
+    AMG GT 
+    Maybach S-Класс 
+    EQE 
+    ЕQS 
+    GLC 
+    GLE 
+    GLS 
+    CLE 
+    СLS 
+    V-Класс
+Модели Honda:
+    Civic 
+    Accord 
+    HR-V 
+    Pilot 
+    CR-V 
+    Odyssey 
+    Passport 
+    Ridgeline 
+    Clarity 
+    Jazz
+Модели Skoda:
+    Fabia 
+    Octavia 
+    Rapid 
+    Karoq 
+    Kodiaq 
+    Enyaq iV 
+    Superb 
+    Scala 
+    Slavia 
+    Togeo.
+Модели Porsche:
+    718 Boxster 
+    Cayenne 
+    Taycan 
+    Panamera 
+    Macan 
+    911 
+    718 Cayman 
+    Carrera GT 
+    992 GT3 
+Модели ВАЗ:
+    Granta 
+    Vesta 
+    Niva Legend 
+    Xray 
+    Largus 
+    Kalina 
+    Priora 
+    Samara 
+    ОКА 
+    «Копейка».
+Модели Volvo:
+    XC40 
+    S60 
+    V60 Cross Country 
+    C40 Recharge 
+    EX90 
+    XC60 
+    XC90 
+    S90 
+    V90 Cross Country 
+    Polestar 2.
+Модели Opel:
+    Astra 
+    Corsa 
+    Insignia 
+    Mokka 
+    Zafira 
+    Combo Life 
+    Crossland 
+    Grandland 
+    Vivaro 
+    Movano.
+
+
+
