@@ -125,7 +125,6 @@ class DataBase:
             }
             parking_data.append(parking_info)
 
-        # Вывод информации
         for data in parking_data:
             print(f"ID: {data['ID']}")
             print(f"Наличие: {data['Наличие']}")
