@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Parking Records{% endblock %}
+
+{% block content %}
+    <h1>List of Parking Records</h1>
+    <ul>
+        {% for parking in parkings %}
+            <li>
+                {{ parking.model.manufacture.name }} {{ parking.model.name }} - 
+                Color: {{ parking.color }} - 
+                State Number: {{ parking.state_number }} - 
+                Engine: {{ parking.engine|yesno:"Yes,No" }} - 
+                Open Doors: {{ parking.open_doors|yesno:"Yes,No" }} - 
+                <a href="{% url 'edit_parking' parking.id %}">Edit</a>
+            </li>
+        {% empty %}
+            <li>No parking records available.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'create_parking' %}">Add New Parking Record</a>
+{% endblock %}

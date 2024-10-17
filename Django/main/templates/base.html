@@ -1,0 +1,23 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Django Site{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'model_list' %}">Models</a></li>
+            <li><a href="{% url 'create_parking' %}">Create Parking</a></li>
+            <li><a href="{% url 'parking_list' %}">Parking List</a></li>
+        </ul>
+    </nav>
+    
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

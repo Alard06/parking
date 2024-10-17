@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Create Parking Record{% endblock %}
+
+{% block content %}
+    <h1>Create Parking Record</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Render the form fields -->
+        <button type="submit">Submit</button>
+    </form>
+    <a href="{% url 'model_list' %}">Back to Model List</a>
+    {% endblock %}

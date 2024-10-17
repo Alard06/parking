@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}List of Models{% endblock %}
+{% block content %}
+    <h1>List of Models</h1>
+    <ul>
+        {% for model in models %}
+            <li>{{ model.manufacture.name }} - {{ model.name }} - {{ model.transmission }} - {{ model.gear }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
